@@ -55,6 +55,18 @@ namespace FocusJob
             this.lblTempo.Visible = true;
            // timer2.Stop();
         }
+        public void msgFinal()
+        {
+            this.label1.Visible = false;
+            this.label2.Visible = false;
+            this.label3.Visible = false;
+            this.lblAtivAtual.Visible = true; ;
+            this.lblPomodori.Visible = false;
+            this.lblTempo.Visible = false;
+            lblDescanso.Visible = false;
+            this.lblAtivAtual.Text = "Parabéns atividades concluídas!";
+
+        }
 
 
 
@@ -84,6 +96,7 @@ namespace FocusJob
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.button1.Enabled = false;
             cont = pom * 25;
             cTotal = cont;
             timer1.Start();
@@ -110,9 +123,10 @@ namespace FocusJob
                        
                         timer1.Stop();
                         descansar(15);
-                       
-                       //Criar uma label para acompanhar a variavel pomTotal e implementar o método de descanso de 5 minutos;                
-                    
+
+                        //Criar uma label para acompanhar a variavel pomTotal e implementar o método de descanso de 5 minutos;                
+                       // if (cont == 0)
+                           // msgFinal();
                     }
                 }
                 if (mostraPom > ativAtual.qtdPomodoris && cont>0)

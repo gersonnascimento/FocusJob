@@ -44,7 +44,7 @@
             this.btnAdicionar.FlatAppearance.BorderSize = 0;
             this.btnAdicionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdicionar.Location = new System.Drawing.Point(30, 102);
-            this.btnAdicionar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnAdicionar.Margin = new System.Windows.Forms.Padding(6);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(150, 42);
             this.btnAdicionar.TabIndex = 0;
@@ -55,7 +55,7 @@
             // txtAtividade
             // 
             this.txtAtividade.Location = new System.Drawing.Point(126, 30);
-            this.txtAtividade.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtAtividade.Margin = new System.Windows.Forms.Padding(6);
             this.txtAtividade.Name = "txtAtividade";
             this.txtAtividade.Size = new System.Drawing.Size(196, 29);
             this.txtAtividade.TabIndex = 1;
@@ -87,7 +87,7 @@
             this.btnSair.FlatAppearance.BorderSize = 0;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Location = new System.Drawing.Point(258, 102);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(6);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(150, 42);
             this.btnSair.TabIndex = 3;
@@ -110,7 +110,7 @@
             "9",
             "10"});
             this.cmbQtd.Location = new System.Drawing.Point(513, 27);
-            this.cmbQtd.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cmbQtd.Margin = new System.Windows.Forms.Padding(6);
             this.cmbQtd.Name = "cmbQtd";
             this.cmbQtd.Size = new System.Drawing.Size(104, 32);
             this.cmbQtd.TabIndex = 6;
@@ -121,7 +121,7 @@
             this.btnFinalizar.FlatAppearance.BorderSize = 0;
             this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFinalizar.Location = new System.Drawing.Point(498, 102);
-            this.btnFinalizar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnFinalizar.Margin = new System.Windows.Forms.Padding(6);
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(150, 42);
             this.btnFinalizar.TabIndex = 7;
@@ -145,8 +145,9 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Atividades";
             this.ResumeLayout(false);
             this.PerformLayout();
