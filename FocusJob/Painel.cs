@@ -64,7 +64,10 @@ namespace FocusJob
             this.lblPomodori.Visible = false;
             this.lblTempo.Visible = false;
             lblDescanso.Visible = false;
-            this.lblAtivAtual.Text = "Parabéns atividades concluídas!";
+            this.lblAtivAtual.Text = "Fim!";
+
+            button1.Text = "Fechar";
+            button1.Enabled = true;
 
         }
 
@@ -82,6 +85,7 @@ namespace FocusJob
             lblPomodori.Text = "1/"+ativAtual.qtdPomodoris;
             //pomTotal += mostraPom;
             mostraPom = 1;
+            lblTempo.Text = Convert.ToString(cont) + " minutos .";
         }
 
         public Painel()
@@ -96,10 +100,15 @@ namespace FocusJob
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.button1.Enabled = false;
-            cont = pom * 25;
-            cTotal = cont;
-            timer1.Start();
+            if (button1.Text == "Fechar")
+                Hide();
+            else
+            {
+                this.button1.Enabled = false;
+                cont = pom * 25;
+                cTotal = cont;
+                timer1.Start();
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -139,6 +148,7 @@ namespace FocusJob
             else
             {
                 timer1.Stop();
+                msgFinal();
             }
         }
 

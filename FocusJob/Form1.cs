@@ -16,6 +16,12 @@ namespace FocusJob
         int pom = 0;
         Atividade[] vet = new Atividade[20];
         int contagem = 0;//conta as atividades inclusas pelo usuário;
+        public bool vazio()
+        {
+            if (this.txtAtividade.Text == "" || this.cmbQtd.Text == "")
+                return true;
+            else return false;
+        }
         public void limpaTxt()
         {
             this.txtAtividade.Text = "";
@@ -28,13 +34,19 @@ namespace FocusJob
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            vet[contagem] = new Atividade(Convert.ToInt16(this.cmbQtd.Text), this.txtAtividade.Text);
-            contagem++;
-            pom += Convert.ToInt16(cmbQtd.Text);
-            limpaTxt();
-            MessageBox.Show("Atividade " + atv + " Cadastrada!");
-            atv++;
+            if (vazio())
+            {
+                MessageBox.Show("Preencha todas as informações solicitadas.");
+            }
+            else
+            {
+                vet[contagem] = new Atividade(Convert.ToInt16(this.cmbQtd.Text), this.txtAtividade.Text);
+                contagem++;
+                pom += Convert.ToInt16(cmbQtd.Text);
+                limpaTxt();
+                MessageBox.Show("Atividade " + atv + " Cadastrada!");
+                atv++;
+            }
             
         }
 
@@ -50,6 +62,7 @@ namespace FocusJob
             p.contagem = this.contagem;
             p.pom = this.pom;
             p.pegaAtividade();
+            Hide();
             p.Show();
         }
 

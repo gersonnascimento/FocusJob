@@ -48,3 +48,13 @@ E:\Executaveis liberados\GitHub\FocusJob\FocusJob\obj\Debug\FocusJob.Form1.resou
 E:\Executaveis liberados\GitHub\FocusJob\FocusJob\obj\Debug\FocusJob.Painel.resources
 E:\Executaveis liberados\GitHub\FocusJob\FocusJob\obj\Debug\FocusJob.Properties.Resources.resources
 E:\Executaveis liberados\GitHub\FocusJob\FocusJob\obj\Debug\FocusJob.csproj.GenerateResource.Cache
+E:\executaveis liberados\pasta\FocusJob\FocusJob\bin\Debug\FocusJob.exe.config
+E:\executaveis liberados\pasta\FocusJob\FocusJob\obj\Debug\FocusJob.exe
+E:\executaveis liberados\pasta\FocusJob\FocusJob\obj\Debug\FocusJob.pdb
+E:\executaveis liberados\pasta\FocusJob\FocusJob\bin\Debug\FocusJob.exe
+E:\executaveis liberados\pasta\FocusJob\FocusJob\bin\Debug\FocusJob.pdb
+E:\executaveis liberados\pasta\FocusJob\FocusJob\obj\Debug\FocusJob.csprojResolveAssemblyReference.cache
+E:\executaveis liberados\pasta\FocusJob\FocusJob\obj\Debug\FocusJob.Form1.resources
+E:\executaveis liberados\pasta\FocusJob\FocusJob\obj\Debug\FocusJob.Painel.resources
+E:\executaveis liberados\pasta\FocusJob\FocusJob\obj\Debug\FocusJob.Properties.Resources.resources
+E:\executaveis liberados\pasta\FocusJob\FocusJob\obj\Debug\FocusJob.csproj.GenerateResource.Cache
