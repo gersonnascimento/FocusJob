@@ -41,7 +41,8 @@
             // btnAdicionar
             // 
             this.btnAdicionar.BackColor = System.Drawing.Color.DarkRed;
-            this.btnAdicionar.FlatAppearance.BorderSize = 0;
+            this.btnAdicionar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnAdicionar.FlatAppearance.BorderSize = 3;
             this.btnAdicionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdicionar.Location = new System.Drawing.Point(30, 102);
             this.btnAdicionar.Margin = new System.Windows.Forms.Padding(6);
@@ -84,7 +85,8 @@
             // btnSair
             // 
             this.btnSair.BackColor = System.Drawing.Color.DarkRed;
-            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnSair.FlatAppearance.BorderSize = 3;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Location = new System.Drawing.Point(258, 102);
             this.btnSair.Margin = new System.Windows.Forms.Padding(6);
@@ -118,7 +120,8 @@
             // btnFinalizar
             // 
             this.btnFinalizar.BackColor = System.Drawing.Color.DarkRed;
-            this.btnFinalizar.FlatAppearance.BorderSize = 0;
+            this.btnFinalizar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnFinalizar.FlatAppearance.BorderSize = 3;
             this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFinalizar.Location = new System.Drawing.Point(498, 102);
             this.btnFinalizar.Margin = new System.Windows.Forms.Padding(6);
